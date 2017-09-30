@@ -1,0 +1,51 @@
+{
+  "name": "konatic",
+  "version": "1.00.0",
+  "main": "lib/konatic.js",
+  "style": "lib/konatic.css",
+  "description": "Flexible, accessible, in-browser source code editor",
+  "license": "MIT",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -w -c",
+    "prepare": "npm run-script build",
+    "test": "node ./test/run.js",
+    "lint": "bin/lint"
+  },
+  "devDependencies": {
+    "blint": "^1",
+    "node-static": "0.6.0",
+    "phantomjs-prebuilt": "^2.1.12",
+    "rollup": "^0.41.0",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-watch": "^3.2.0"
+  },
+  "bugs": "https://github.com/katekligman/konatic/issues",
+  "keywords": [
+    "JavaScript",
+    "Accessible",
+    "Source",
+    "Code",
+    "Editor"
+  ],
+  "homepage": "https://github.com/katekligman/konatic",
+  "maintainers": [
+    {
+      "name": "Kate Kligman",
+      "email": "kate@katekligman.com",
+      "web": "https://www.katekligman.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katekligman/konatic.git"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {},
+    "devDependencies": {}
+  }
+}
