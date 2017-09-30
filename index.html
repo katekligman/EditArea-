@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Konatic - Accessible, Flexible Web Source Code Editor</title>
+     <script src="./build/konatic.js"></script>
+  </head>
+  <body>
+    <textarea id="edit1"></textarea>
+  <script>
+    var editor = Konatic.init({
+      id: document.getElementById("edit1"),
+      lineNumbers: true,
+      language: "en",
+      syntax: "sql"
+    });
+</script>
+  </body>
+</html>
