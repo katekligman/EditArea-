@@ -1,12 +1,12 @@
 {
   "name": "konatic",
   "version": "1.00.0",
-  "main": "lib/konatic.js",
-  "style": "lib/konatic.css",
+  "main": "build/konatic.js",
+  "style": "build/konatic.css",
   "description": "Flexible, accessible, in-browser source code editor",
   "license": "MIT",
   "directories": {
-    "lib": "./lib"
+    "build": "./build"
   },
   "scripts": {
     "build": "rollup -c",

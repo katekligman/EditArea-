@@ -6,7 +6,7 @@ export default {
 `,
   entry: "src/konatic.js",
   format: "umd",
-  dest: "lib/konatic.js",
+  dest: "build/konatic.js",
   moduleName: "Konatic",
   plugins: [ buble({namedFunctionExpressions: false}) ]
 };
